@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    top: 50px;
+ width: 200px;
+ height: 200px;
+ margin: 0 auto;
+ border: 1px solid #000000;
+ position: relative;
+ background: red;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+#container:hover {
+    
+    width: 600px;
+    transition: all 3s ease;
+}
+p {
+    font-size: 12px;
+   
+   
+}
+.cambioletra{
+    font-size: 30px;
+    transition: all 3s ease;
+}
