@@ -1,0 +1,41 @@
+#container {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background-image: url(../img/canasta.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90% 90%;
+   
+}
+
+#pelota {
+    position: absolute;
+    left: 20%;
+    width: 20em;
+    
+}
+
+#boton {
+    position: absolute;
+    left: 20%;
+    margin-top: 5%;
+    
+}
+   
+.caer {
+    transform:  translate(-5px, 1000px) rotate(90deg);
+    animation: rebota 2s alternate infinite ease-in;
+    /* transition: all 2s infinite ease-in; */
+}
+@keyframes rebota{
+    
+    100%{
+      transform: translateY(50px);
+      
+    }
+}
+
+

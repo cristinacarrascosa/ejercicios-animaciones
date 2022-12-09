@@ -25,7 +25,7 @@
 }
    
 .caer {
-    transform:  translate(-5px, 655px) rotate(90deg);
+    transform:  translate(-5px, 1000px) rotate(90deg);
     transition: all 9.4s ease;
 }
 
