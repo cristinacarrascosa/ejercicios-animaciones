@@ -30,8 +30,8 @@
 }
    
 .mover {
-    transform:  translateY(100px 100px);
-    transition: all 3s linear;
+    transform:  translateY(-1000px);
+    transition: all 2s ease-in;
   
    
 }
