@@ -26,7 +26,7 @@
 }
    
 .caer {
-    transform:  translate(-5px, 1000px) rotate(90deg);
+    transform:  translate(-5px, 700px) rotate(90deg);
     animation: rebota 2s alternate infinite ease-in;
     /* transition: all 2s infinite ease-in; */
 }
