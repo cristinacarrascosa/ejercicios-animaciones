@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+button {
+    display: flex;
+    align-items: center; 
+    width: 15vw;
+    height: 3rem;
+    border: 0;
+    border-radius: 3px;
+    /* margin: 30px;
+    padding: 0 20px; */
+    background-color: rgb(141, 183, 226);
+    color: #fff;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    cursor: pointer;
+    background-image: url(../img/icono_usuario.png);
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 20px;
+   
+  }
+
+  .animacion {
+   animation-name: cambio;
+   animation-delay: 5s;
+   animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+  }
+
+  /*animation: nombre duración función-de-temporizador demora
+número-de-iteraciones dirección fill-mode estado-de-la-animación;*/
+
+  @keyframes cambio {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        background-color: rgb(48, 144, 212);
+    }
+    100% {
+      background-color: blue;
+    }
+    
+  }
+   
+  
