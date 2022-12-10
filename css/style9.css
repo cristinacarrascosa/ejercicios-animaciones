@@ -36,7 +36,7 @@ button {
 
   .animacion {
    animation-name: cambio;
-   animation-delay: 5s;
+   animation-delay: 20s;
    animation-duration: 2s;
     animation-iteration-count: infinite;
 
